@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
-  "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "name": "bjesl-berkeley-website",
+  "description": "The Berkeley Journal of Entertainment and Sports Law (BJESL) is committed to providing a wide selection of intellectual and practical discussions from scholars, practitioners, and students on current legal issues that impact the sports and entertainment industries, domestically and internationally.",
+  "version": "0.0.1",
+  "author": "Innovative Design <innovativedesign.club>",
   "dependencies": {
     "eslint-loader": "^1.9.0",
     "gatsby": "^1.9.36",
