@@ -1,13 +1,28 @@
 $containerMargin: 1em;
 $thumbnailDimension: 150px;
 
+.OfficerPortrait__Container {
+    flex: 0 1 100%;
+}
+
+@media (min-width: 768px) {
+    .OfficerPortrait__Container {
+        flex: 0 1 calc(50% - (#{$containerMargin} * 2));
+    }
+}
+
+@media (min-width: 992px) {
+    .OfficerPortrait__Container {
+        flex: 0 1 calc(33% - (#{$containerMargin} * 2));
+    }
+}
+
 .OfficerPortraits {
     display: flex;
     flex-flow: row wrap;
 }
 
 .OfficerPortrait__Container {
-    flex: 0 1 calc(33% - (#{$containerMargin} * 2));
     margin: $containerMargin;
 }
 
