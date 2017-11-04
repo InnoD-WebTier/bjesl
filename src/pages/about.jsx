@@ -1,11 +1,58 @@
 import React from 'react';
-import Link from 'gatsby-link';
+import OfficerPortrait from '../components/OfficerPortrait';
 
 const About = () => (
   <div>
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
+    <div className="OfficerPortraits">
+      <OfficerPortrait
+        name="Jane Doe"
+        bio="Jane Doe is a 3L at UC Berkeley School of Law and is one of the Editors-in-Chief
+            of the Berkeley Journal of Entertainment and Sports Law."
+        img="http://via.placeholder.com/150x150"
+      />
+      <OfficerPortrait
+        name="Jane Doe"
+        bio="Jane Doe is a 3L at UC Berkeley School of Law and is one of the Editors-in-Chief
+            of the Berkeley Journal of Entertainment and Sports Law."
+        img="http://via.placeholder.com/150x150"
+      />
+      <OfficerPortrait
+        name="Jane Doe"
+        bio="Jane Doe is a 3L at UC Berkeley School of Law and is one of the Editors-in-Chief
+            of the Berkeley Journal of Entertainment and Sports Law."
+        img="http://via.placeholder.com/150x150"
+      />
+      <OfficerPortrait
+        name="Jane Doe"
+        bio="Jane Doe is a 3L at UC Berkeley School of Law and is one of the Editors-in-Chief
+            of the Berkeley Journal of Entertainment and Sports Law."
+        img="http://via.placeholder.com/150x150"
+      />
+      <OfficerPortrait
+        name="Jane Doe"
+        bio="Jane Doe is a 3L at UC Berkeley School of Law and is one of the Editors-in-Chief
+            of the Berkeley Journal of Entertainment and Sports Law."
+        img="http://via.placeholder.com/150x150"
+      />
+      <OfficerPortrait
+        name="Jane Doe"
+        bio="Jane Doe is a 3L at UC Berkeley School of Law and is one of the Editors-in-Chief
+            of the Berkeley Journal of Entertainment and Sports Law."
+        img="http://via.placeholder.com/150x150"
+      />
+      <OfficerPortrait
+        name="Jane Doe"
+        bio="Jane Doe is a 3L at UC Berkeley School of Law and is one of the Editors-in-Chief
+            of the Berkeley Journal of Entertainment and Sports Law."
+        img="http://via.placeholder.com/150x150"
+      />
+      <OfficerPortrait
+        name="Jane Doe"
+        bio="Jane Doe is a 3L at UC Berkeley School of Law and is one of the Editors-in-Chief
+            of the Berkeley Journal of Entertainment and Sports Law."
+        img="http://via.placeholder.com/150x150"
+      />
+    </div>
   </div>
 );
 
