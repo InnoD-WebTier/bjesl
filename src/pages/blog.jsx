@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'gatsby-link';
 import Event from '../components/Event';
 
+
 const Blog = () => (
   <div>
     <h1>Hi from the second page</h1>
@@ -32,6 +33,9 @@ const Blog = () => (
   </div>
 
 
+=======
+    <Link to="/">Go back to the homepage</Link>
+  </div>
 );
 
 export default Blog;
