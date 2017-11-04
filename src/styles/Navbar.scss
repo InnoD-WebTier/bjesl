@@ -1,0 +1,38 @@
+.navbar {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 50px;
+  margin-bottom: 50px;
+}
+
+.navbar__col {
+  display: flex;
+  margin: 30px;
+  height: 30px;
+}
+
+.navbar__col_link {
+  text-transform: uppercase;
+}
+
+a.navbar__col_link,
+a.navbar__col_link:visited {
+  color: #9C9C9C;
+  text-decoration: none;
+}
+
+a.navbar__col_link:hover {
+  color: #000;
+}
+
+.navbar__col--selected {
+  border-bottom: 4px solid black;
+}
+
+a.navbar__col_link--selected,
+a.navbar__col_link--selected:visited {
+  color: #000;
+  font-weight: 700;
+}
