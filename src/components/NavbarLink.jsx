@@ -4,7 +4,7 @@ import Link from 'gatsby-link';
 
 const NavbarLink = (props) => {
   const selected = window.location.href.indexOf(props.location) > -1;
-  const label = props.location[0].toUpperCase() + props.location.substring(1);
+  const label = props.children || props.location[0].toUpperCase() + props.location.substring(1);
 
   return (<div className={`navbar__col${selected ? ' navbar__col--selected' : ''}`}>
     <Link

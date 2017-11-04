@@ -4,13 +4,17 @@
   flex-direction: row;
   justify-content: flex-start;
   height: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 
 .navbar__col {
   display: flex;
   margin: 30px;
   height: 30px;
+}
+
+div.navbar__logo {
+  margin: 0 0 0 0;
 }
 
 .navbar__col_link {
