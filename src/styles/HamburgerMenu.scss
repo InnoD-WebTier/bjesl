@@ -1,0 +1,35 @@
+.Hamburger, .Hamburger-Toggled {
+    margin: 30px;
+    min-height: 30px;
+    cursor: pointer;
+}
+
+.Hamburger__Stripe-Top, .Hamburger__Stripe-Middle, .Hamburger__Stripe-Bottom {
+    background: black;
+    margin: 4px;
+    height: 4px;
+    width: 30px;
+}
+
+.Hamburger-Toggled .Hamburger__Stripe-Top {
+    transform: rotate(-45deg) translate(-9px, 3px);
+}
+
+.Hamburger-Toggled .Hamburger__Stripe-Middle {
+    opacity: 0;
+}
+
+.Hamburger-Toggled .Hamburger__Stripe-Bottom {
+    transform: rotate(45deg) translate(-8px, -3px) ;;
+}
+
+.Hamburger__Links {
+    display: none;
+}
+
+.Hamburger__Links-Toggled {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 30px 30px 30px;
+}

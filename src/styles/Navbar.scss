@@ -1,16 +1,33 @@
-.navbar {
+.navbar-menu, .navbar-expanded {
   font-family: sans-serif;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  height: 50px;
+  min-height: 50px;
+}
+
+.navbar-expanded {
   margin-bottom: 50px;
+  display: none;
 }
 
 .navbar__col {
-  display: flex;
-  margin: 30px;
   height: 30px;
+  margin: 15px 30px;
+}
+
+@media (min-width: 768px) {
+  .navbar-menu {
+    display: none;
+  }
+
+  .navbar-expanded {
+    display: flex;
+  }
+
+  .navbar__col {
+    margin: 30px;
+  }
 }
 
 .navbar__col_link {
