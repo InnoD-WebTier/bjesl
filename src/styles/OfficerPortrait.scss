@@ -17,11 +17,6 @@ $thumbnailDimension: 150px;
     }
 }
 
-.OfficerPortraits {
-    display: flex;
-    flex-flow: row wrap;
-}
-
 .OfficerPortrait__Container {
     margin: $containerMargin;
 }
