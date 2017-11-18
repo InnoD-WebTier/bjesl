@@ -6,9 +6,9 @@ const NavbarLink = (props) => {
   const selected = window.location.href.indexOf(props.location) > -1;
   const label = props.location[0].toUpperCase() + props.location.substring(1);
 
-  return (<div className={`navbar__col${selected ? ' navbar__col--selected' : ''}`}>
+  return (<div className={`Navbar__Column${selected ? ' Navbar__Column-Selected' : ''}`}>
     <Link
-      className={`navbar__col_link${selected ? ' navbar__col_link--selected' : ''}`}
+      className={`Navbar__ColumnLink${selected ? ' Navbar__ColumnLink-Selected' : ''}`}
       to={`/${props.location}`}
     >
       {label}

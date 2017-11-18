@@ -8,10 +8,10 @@ import "../styles/Navbar.scss";
 const Navbar = (props) => {
   return (
     <div>
-      <div className="navbar-menu">
+      <div className="Navbar__Hamburger">
         <HamburgerMenu pages={props.pages} />
       </div>
-      <div className="navbar-expanded">
+      <div className="Navbar__Full">
         {props.pages.map(page => <NavbarLink key={page} location={page} />)}
       </div>
     </div>
