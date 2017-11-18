@@ -5,7 +5,7 @@ import Helmet from 'react-helmet';
 import Navbar from '../components/Navbar';
 import './index.css';
 
-const TemplateWrapper = ({ children }) => (
+const TemplateWrapper = ({ children, location }) => (
   <div>
     <Helmet
       title="Gatsby Default Starter"
@@ -14,7 +14,7 @@ const TemplateWrapper = ({ children }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
-    <Navbar pages={['about', 'blog', 'events', 'publications', 'contact']} />
+    <Navbar pages={['about', 'blog', 'events', 'publications', 'contact']} location={location} />
     <div
       style={{
         margin: '0 auto',

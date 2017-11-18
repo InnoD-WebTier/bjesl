@@ -8,11 +8,11 @@ import Logo from './logo.svg';
 const Navbar = (props) => {
   return (<div className="navbar">
     <div className="navbar__col navbar__logo">
-      <NavbarLink location="">
+      <NavbarLink to="" location={props.location}>
         <img src={Logo} alt="BJESL" />
       </NavbarLink>
     </div>
-    {props.pages.map(page => <NavbarLink location={page} />)}
+    {props.pages.map(page => <NavbarLink to={page} location={props.location} />)}
   </div>);
 };
 
