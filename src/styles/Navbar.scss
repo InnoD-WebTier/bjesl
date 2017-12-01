@@ -1,42 +1,68 @@
-.navbar {
+.Navbar__Hamburger, .Navbar__Full {
   font-family: sans-serif;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  height: 50px;
   margin-bottom: 60px;
+  min-height: 50px;
 }
 
-.navbar__col {
-  display: flex;
-  margin: 30px;
+.Navbar__Full {
+  margin-bottom: 50px;
+  display: none;
+}
+
+.Navbar__Column {
   height: 30px;
+  margin: 15px 30px;
 }
 
-div.navbar__logo {
+@media (min-width: 768px) {
+  .Navbar__Hamburger {
+    display: none;
+  }
+
+  .Navbar__Full {
+    display: flex;
+  }
+
+  .Navbar__Column {
+    margin: 30px;
+  }
+}
+
+div.Navbar__Logo {
   margin: 0 0 0 0;
 }
 
-.navbar__col_link {
+.Navbar__Hamburger > div.Navbar__Logo {
+  width: 50px;
+  position: absolute;
+  left: 50%;
+  top: 15px;
+  margin-left: -25px;
+}
+
+.Navbar__ColumnLink {
   text-transform: uppercase;
 }
 
-a.navbar__col_link,
-a.navbar__col_link:visited {
+a.Navbar__ColumnLink,
+a.Navbar__ColumnLink:visited {
   color: #9C9C9C;
   text-decoration: none;
 }
 
-a.navbar__col_link:hover {
+a.Navbar__ColumnLink:hover {
   color: #000;
 }
 
-.navbar__col--selected {
+.Navbar__Column-Selected {
   border-bottom: 4px solid black;
 }
 
-a.navbar__col_link--selected,
-a.navbar__col_link--selected:visited {
+a.Navbar__ColumnLink-Selected,
+a.Navbar__ColumnLink-Selected:visited {
   color: #000;
   font-weight: 700;
 }

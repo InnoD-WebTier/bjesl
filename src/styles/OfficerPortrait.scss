@@ -17,11 +17,6 @@ $thumbnailDimension: 150px;
     }
 }
 
-.OfficerPortraits {
-    display: flex;
-    flex-flow: row wrap;
-}
-
 .OfficerPortrait__Container {
     margin: $containerMargin;
 }
@@ -44,3 +39,4 @@ $thumbnailDimension: 150px;
     z-index: -1;
     min-height: 10 * $containerMargin;
 }
+
