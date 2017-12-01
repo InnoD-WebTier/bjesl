@@ -1,0 +1,23 @@
+$accent-1: #003262;
+
+.Event {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.Event__Title {
+	color: #003262;
+	text-decoration: none;
+}
+
+.Event__Title:hover {
+	color: #6698C7;
+}
+
+.Event__Info {
+	font-size: 12px;
+	// margin: 10px;
+}
