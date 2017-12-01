@@ -22,7 +22,7 @@ collections:
   - name: "about"
     label: "About"
     folder: "src/pages/people"
-    create: false
+    create: true 
     slug: "{{slug}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
